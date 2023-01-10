@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:grid;
+    justify-items:center;
+    align-items:center;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  border-bottom: 2px solid rgb(255, 0, 0);
+  text-decoration: none;
+}
